@@ -1,0 +1,33 @@
+#main .mains .aside .info{
+    position: absolute;
+    top: 38px;
+    left: 0;
+    width: 220px;
+    height: 460px;
+    color: #000000;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #d1d5da;
+    border-radius: 6px;
+}
+
+#main .mains .content .item .cloudclass{
+    font-weight: bold;
+    border-bottom: 2px solid #0366d6;
+}
+#main .mains .content .cloudclass_content{
+    z-index: 9;
+    opacity: 1;
+}
+#main .mains .content .itbegin_content,#main .mains .content .cg_content,#main .mains .content .sum_content{
+  z-index: 0;
+  opacity: 0;  
+}
+#main .mains .content .cloudclass_content,#main .mains .content .itbegin_content,#main .mains .content .cg_content,#main .mains .content .sum_content{
+    position: absolute;
+    top: 50px;
+    width: 1000px;
+    height: auto;
+    background: #ffffff;
+}

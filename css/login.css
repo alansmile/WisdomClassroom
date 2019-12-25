@@ -1,0 +1,112 @@
+#header .headers .qq a{
+    display: block;
+    width: 70px;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 66px;
+    float: right;
+    cursor: pointer;
+}
+#header .headers .qq a:hover{
+    color: #0366d6;
+}
+#login{
+    position: relative;
+    top: 60px;
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+#login aside img{
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+#login .loginview{
+    float: right;
+    position: relative;
+    width: 500px;
+    height: 400px;
+    box-sizing: border-box;
+    border: 1px solid #d1d5da;
+    border-radius: 6px;
+}
+#login .loginview .switch{
+    position: relative;
+    top: 0;
+    width: 460px;
+    margin: 0 auto;
+    height: 50px;  
+    font-size: 18px;
+    line-height: 50px;
+    border-bottom: 1px solid #d1d5da;
+}
+#login .loginview .switch .teacheritem{
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+#login .loginview .switch .studentitem{
+    display: block;
+    float: right;
+    cursor: pointer;
+}
+#login .loginview .switch .teacheritem:hover,#login .loginview .switch .studentitem:hover{
+    color: #0366d6;
+}
+#login .loginview .teacher,#login .loginview .student{
+    position: relative;
+    width: 460px;
+    height: 326px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+#login .loginview .teacher{
+    display: block;
+}
+#login .loginview .student{
+    display: none;
+}
+#login .loginview .teacher .teacherphoto,#login .loginview .student .studentphoto{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #24292e;
+    border-radius: 50%;
+}
+#login .loginview .teacher .hint,#login .loginview .student .hint{
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    font-size: 36px;
+    font-weight: bold;
+}
+#login .loginview .teacher .teacherform,#login .loginview .student .studentform{
+    text-align: center;
+    line-height: 2.5;
+    font-size: 16px;
+    color: #000000;
+}
+#login .loginview .teacher .tusername,#login .loginview .teacher .tpassword,#login .loginview .student .susername,#login .loginview .student .spassword{
+    width: 210px;
+    height: 30px;
+    border: 1px solid #d1d5da;
+    border-radius: 6px;
+    padding: 0 16px 0 16px;
+    outline-color: #ffffff;
+}
+#login .loginview .teacher .result,#login .loginview .student .result{
+    line-height: 1;
+    color: red;
+}
+#login .loginview .teacher .teachergo,#login .loginview .student .studentgo{
+    width: 120px;
+    height: 50px;
+    margin: 0 auto;
+    background: #0366d6;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+}
+

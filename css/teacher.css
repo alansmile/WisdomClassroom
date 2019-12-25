@@ -1,0 +1,132 @@
+#main .mains .aside .info{
+    position: absolute;
+    top: 38px;
+    left: 0;
+    width: 220px;
+    height: 380px;
+    color: #000000;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #d1d5da;
+    border-radius: 6px;
+}
+#main .mains .content .item .students{
+    font-weight: bold;
+    border-bottom: 2px solid #0366d6;
+}
+#main .mains .content .students_content{
+    z-index: 9;
+    opacity: 1;
+}
+#main .mains .content .cloudclass_content,#main .mains .content .itbegin_content,#main .mains .content .cg_content,#main .mains .content .sum_content{
+  z-index: 0;
+  opacity: 0;  
+}
+#main .mains .content .students_content,#main .mains .content .cloudclass_content,#main .mains .content .itbegin_content,#main .mains .content .cg_content,#main .mains .content .sum_content{
+    position: absolute;
+    top: 50px;
+    width: 1000px;
+    height: auto;
+    background: #ffffff;
+}
+#main .mains .content .students_content input.update,#main .mains .content .cloudclass_content input.update,#main .mains .content .itbegin_content input.update,#main .mains .content .cg_content input.update,#main .mains .content .sum_content input.update{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+#shade{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #d1d5da;
+    opacity: 0.6;
+    z-index: 99;
+    display: none;
+}
+#waiting{
+    position: fixed;
+    top: 160px;
+    left: 50%;
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+    color: #0366d6;
+    margin-left: -90px;
+    z-index: 1000;
+    display: none; 
+}
+#addstu,#addclo,#addit,#addcg{
+    position: fixed;
+    top: 66px;
+    left: 50%;
+    width: 800px;
+    height: 500px;
+    font-size: 16px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px; 
+    margin-left: -400px;
+    background: #ffffff;
+    z-index: 100;
+    display: none;
+}
+#addstu .title,#addclo .title,#addit .title,#addcg .title{
+    display: block;
+    height: 60px;
+    width: auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 60px;
+    background-color: #24292e;
+    margin-bottom: 30px;
+}
+#addstu .exit,#addclo .exit,#addit .exit,#addcg .exit{
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    height: 46px;
+    width: 46px;
+    top: 10px;
+    right: 10px;
+    background-color: #24292e;
+}
+#addstu .addstuform,#addclo .addcloform,#addit .additform,#addcg .addcgform{
+    text-align: center;
+    line-height: 2;
+}
+#addstu input,#addclo input,#addit input,#addcg input{
+    height: 36px;
+    width: 260px;
+    border: 1px solid #d1d5da;
+    border-radius: 4px;
+    padding: 0 16px 0 16px;
+    outline-color: #ffffff;
+}
+#addstu .result,#addclo .result,#addit .result,#addcg .result{
+    color: red;
+    line-height: 0.5;
+}
+#addstu .go,#addclo .go,#addit .go,#addcg .go{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    background: #0366d6;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+}
+#tell{
+    position: fixed;
+    top: 160px;
+    left: 52%;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    z-index: 66;
+    opacity: 0;
+}

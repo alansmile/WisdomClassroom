@@ -1,0 +1,225 @@
+#header{
+    position: relative;
+    width: 100%;
+    height: 66px;
+    background-color: #24292e;
+}
+#header .headers{
+    position: relative;
+    width: 1280px;
+    min-width: 1280px;
+    height: 66px;
+    margin: 0 auto;
+    color: white;
+    font-size: 16px;
+}
+#header .headers .logo{
+    position: absolute;
+    left: 0;
+    width: 66px;
+    height: 66px;
+    cursor: pointer;
+}
+#header .headers .title{
+    position: absolute;
+    left: 80px;
+    width: auto;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 66px;
+}
+#header .headers .show{
+    position: absolute;
+    left: 280px;
+    width: auto;
+    line-height: 66px;
+    cursor: pointer; 
+}
+#header .headers .addstudent{
+    position: absolute;
+    left: 380px;
+    width: auto;
+    line-height: 66px;
+    cursor: pointer;
+}
+#header .headers .add{
+    position: absolute;
+    left: 500px;
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+    text-align: center;
+    z-index: 16;
+}
+#header .headers .add .addinfo{
+    width: 120px;
+    line-height: 67px;   
+}
+#header .headers .add ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 120px;
+    height: 150px;
+    display: none;
+}
+#header .headers .add ul li{
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ffffff;
+    background: #24292e;
+}
+#header .headers .searchform{
+    position: absolute;
+    top: 15px;
+    right: 90px;
+    width: 230px;
+    padding-left: 16px;
+    padding-right: 40px;
+    height: 32px;
+    color: #000000;
+    border: 1px solid #24292e;
+    outline-color: #24292e;
+    border-radius: 5px;
+    background: #ffffff;
+}
+#header .headers .searchphoto{
+    position: absolute;
+    top: 14px;
+    text-indent: 16px;
+    right: 90px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+#header .headers .exit{
+    display: block;
+    width: 70px;
+    line-height: 66px;
+    color: #ffffff;
+    float: right;
+    cursor: pointer;
+}
+#header .headers .show:hover,#header .headers .exit:hover,#header .headers .addstudent:hover,#header .headers .add .addinfo:hover,#header .headers .add ul li:hover{
+    color: #0366d6;
+}
+#main{
+    position: relative;
+    width: 100%;
+    color: #586069;
+    height: auto;  
+}
+#main .mains{
+    position: relative;
+    width: 1280px;
+    min-width: 1280px;
+    height: auto;
+    margin: 0 auto;
+}
+#main .mains .aside{
+    float: left;
+    position: relative;
+    width: 280px;
+    height: 600px;
+}
+#main .mains .aside .info .photo{
+    width: 220px;
+    height: 220px; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+#main .mains .aside .info p{
+    text-indent: 20px;
+}
+#main .mains .content{
+    float: right;
+    position: relative;
+    width: 1000px;
+    height: auto;
+    background-color: #ffffff;
+}
+#main .mains .content .item{
+    position: absolute;
+    top: 0px;
+    width: 1000px;
+    height: 80px;
+    z-index: 10;
+    line-height: 100px;
+    background-color: #ffffff;
+    padding-bottom: 36px;
+}
+#main .mains .content .item span{
+    display: block;
+    float: left;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+    border-bottom: 1px solid #d1d5da;
+    cursor: pointer;
+    height: 80px;
+    width: 160px;
+    margin: 0px 10px;
+}
+/*只有进行修改和删除操作时这两个按钮才显示*/
+#main .mains .content .students_content .do1,#main .mains .content .cloudclass_content .do2,#main .mains .content .itbegin_content .do3,#main .mains .content .cg_content .do4,#main .mains .content .sum_content .do5{
+    position: absolute;
+    top: 50px;
+    z-index: 9;
+    width: 1000px;
+    height: 50px;
+    background-color: #ffffff;
+    display: none;
+}
+#main .mains .content .students_content .do1 span,#main .mains .content .cloudclass_content .do2 span,#main .mains .content .itbegin_content .do3 span,#main .mains .content .cg_content .do4 span,#main .mains .content .sum_content .do5 span{
+    float: right;
+    line-height: 50px;
+    width: 60px;
+    height: 40px;
+    border: 1px solid #d1d5da;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px 2px 0 50px;
+    font-size: 17px;
+    cursor: pointer;
+    color: #000000;
+    background-color: #0366d6;
+}
+
+#main .mains .content table{
+    position: absolute;
+    top: 50px;
+    width: 1000px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    text-align: center;
+    background: #ffffff;
+}
+#main .mains .content tr{
+    width: 1000px;
+    height: 50px;
+    background: #f3f0f0;
+}
+#gotop img{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 100px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 12;
+    background-color: #ffffff;
+    color: #72777c;
+    line-height: 60px;
+    text-align: center;
+}

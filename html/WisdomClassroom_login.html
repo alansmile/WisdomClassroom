@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>智慧课堂-登录</title>
+    <link rel="shortcut icon" href="../images/logo.ico">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/current.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <header id="header">
+        <div class="headers">
+            <img src="../images/logo.png" alt="logo" title="智慧课堂" class="logo">
+            <span class="title">智 慧 课 堂</span>
+            <input type="text" name="search" class="searchform" placeholder="Search">
+            <img src="../images/search.png" class="searchphoto" title="搜索">
+            <span class="qq"><a href="tencent://message/?uin=1718105903&Site=&Menu=yes">联系Alan</a></span>
+        </div>  
+    </header>
+    <main id="login">
+        <aside class="aside">
+            <img src="../images/loginaside.png" alt="智慧课堂">
+        </aside>
+        <div class="loginview">
+            <div class="switch">
+                <span class="teacheritem">教师登录</span>
+                <span class="studentitem">学生登录</span>
+            </div>
+            <div class="teacher">
+                <img src="../images/teacher.png" alt="老师" class="teacherphoto">
+                <span class="hint">Hi,Teacher!</span>
+                <form class="teacherform">
+                    <p>用户名 &nbsp;&nbsp;<input type="text" name="tusername" class="tusername" placeholder="username"><p>
+                    <p>密&nbsp; &nbsp;码 &nbsp;&nbsp;<input type="password" name="tpassword" class="tpassword" placeholder="password"><p>
+                    <p class="result"></p>
+                    <p class="teachergo">登 &nbsp; &nbsp; 录</p>
+                </form>
+            </div>
+
+            <div class="student">
+                <img src="../images/student.png" alt="学生" class="studentphoto">
+                <span class="hint">Hi,Student!</span>
+                <form class="studentform">
+                    <p>用户名 &nbsp;&nbsp;<input type="text" name="susername" class="susername" placeholder="username"><p>
+                    <p>密&nbsp; &nbsp;码 &nbsp;&nbsp;<input type="password" name="spassword" class="spassword" placeholder="password"><p>
+                    <p class="result"></p>
+                    <p class="studentgo">登 &nbsp; &nbsp; 录</p>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer">
+        Copyright &copy; 2019 Alan.
+    </footer>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/login.js"></script>
+</body>
+</html>

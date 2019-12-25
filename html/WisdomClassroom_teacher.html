@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>智慧课堂-教师平台</title>
+    <link rel="shortcut icon" href="../images/logo.ico">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/current.css">
+    <link rel="stylesheet" href="../css/teacher.css">
+</head>
+<body>
+    <header id="header">
+        <div class="headers">
+            <img src="../images/logo.png" alt="logo" title="智慧课堂-教师平台" class="logo">
+            <span class="title">智 慧 课 堂</span>
+            <span class="show">数据全览</span>
+            <span class="addstudent">学生信息注册</span>
+            <div class="add">
+                <span class="addinfo">平台信息上传</span>
+                <ul>
+                    <li class="add1">蓝墨云班课</li>
+                    <li class="add2">ITBegin</li>
+                    <li class="add3">Course Grading</li>
+                </ul>
+            </div>
+            <input type="text" name="search" class="searchform" placeholder="Search">
+            <img src="../images/search.png" class="searchphoto" title="搜索">
+            <a href="http://www.alanphp.com:8000/WisdomClassroom/html/WisdomClassroom_login.html" class="exit">退出账号</a>
+        </div>  
+    </header>
+    <main id="main">
+    <div class="mains">
+       <aside class="aside">
+            <div class="info">
+                <img src="../images/teacher.png" alt="老师" class="photo">
+            </div>
+       </aside> 
+       <article class="content">
+           <nav class="item">
+                <span class="students">学生基本信息</span>
+                <span class="cloudclass">蓝墨云班课</span>
+                <span class="itbegin">ITBegin</span>
+                <span class="cg">Course Grading</span>
+                <span class="sum">数据汇总</span>
+           </nav>
+           <div class="students_content">
+                <table class="studentsinfo" cellspacing="1">
+                    <div class="do1">
+                        <span class="all1" style="float: left;margin-left: 0;background: #ffffff;">全选</span>
+                        <span class="not-all1" style="float: left;margin-left: 0;background: #ffffff;">全不选</span>
+                        <span class="delete1">删除</span>
+                        <span class="update1">修改</span>  
+                    </div>
+                    <tr class="title">
+                        <th>学号</th>
+                        <th>姓名</th>
+                        <th>年级</th>
+                        <th>专业</th>
+                        <th>班级</th>
+                    </tr>
+                </table>
+           </div>
+           <div class="cloudclass_content">
+               <table class="cloudclassinfo" cellspacing="1">
+                   <div class="do2">
+                        <span class="all2" style="float: left;margin-left: 0;background: #ffffff;">全选</span>
+                        <span class="not-all2" style="float: left;margin-left: 0;background: #ffffff;">全不选</span>
+                        <span class="delete2">删除</span>
+                        <span class="update2">修改</span>
+                    </div>
+                    <tr class="title">
+                        <th>学号</th>
+                        <th>视频资源学习(30%)</th>
+                        <th>非视频资源学习(25%)</th>
+                        <th>签到(20%)</th>
+                        <th>测试(25%)</th>
+                        <th>百分制得分</th>
+                    </tr>
+                </table>
+           </div>
+           <div class="itbegin_content">
+               <table class="itbegininfo" cellspacing="1">
+                   <div class="do3">
+                        <span class="all3" style="float: left;margin-left: 0;background: #ffffff;">全选</span>
+                        <span class="not-all3" style="float: left;margin-left: 0;background: #ffffff;">全不选</span>
+                        <span class="delete3">删除</span>
+                        <span class="update3">修改</span>
+                    </div>
+                    <tr class="title">
+                        <th>学号</th>
+                        <th>运行次数</th>
+                        <th>敲键次数</th>
+                        <th>代码行数</th>
+                        <th>课程时间</th>
+                    </tr>
+                </table>
+           </div>
+           <div class="cg_content">
+               <table class="cginfo" cellspacing="1">
+                   <div class="do4">
+                        <span class="all4" style="float: left;margin-left: 0;background: #ffffff;">全选</span>
+                        <span class="not-all4" style="float: left;margin-left: 0;background: #ffffff;">全不选</span>
+                        <span class="delete4">删除</span>
+                        <span class="update4">修改</span>
+                    </div>
+                    <tr class="title">
+                        <th>学号</th>
+                        <th>成绩</th>
+                        <th>修订成绩</th>
+                        <th>作业ID</th>
+                    </tr>
+                </table>
+           </div>
+           <div class="sum_content">
+               <table class="suminfo" cellspacing="1">
+                   <div class="do5">
+                        <span class="all5" style="float: left;margin-left: 0;background: #ffffff;">全选</span>
+                        <span class="not-all5" style="float: left;margin-left: 0;background: #ffffff;">全不选</span>
+                        <span class="delete5">删除</span>
+                        <span class="update5">修改</span>
+                    </div>
+                    <tr class="title">
+                        <th>学号</th>
+                        <th>提交题目</th>
+                        <th>正确题目</th>
+                        <th>代码行</th>
+                        <th>提交次数</th>
+                        <th>答题时间(分)</th>
+                    </tr>
+                </table>
+           </div> 
+       </article>
+    </div>
+    </main>
+    <div id="gotop">
+        <img src="../images/gotop.png" alt="返回顶部" title="返回顶部">
+    </div>
+    <div id="tell"></div>
+    <div id="shade"></div>
+    <div id="addstu">
+        <span class="title">学生信息注册</span>
+        <img src="../images/exit.png" alt="退出" title="退出" class="exit">
+        <form class="addstuform">
+            <p>学&nbsp; &nbsp;号 &nbsp;&nbsp;<input type="text" name="username" class="username" placeholder="8位有效数字"><p>
+            <p>姓&nbsp; &nbsp;名 &nbsp;&nbsp;<input type="text" name="name" class="name" placeholder="学生真实姓名"><p>
+            <p>年&nbsp; &nbsp;级 &nbsp;&nbsp;<input type="text" name="grade" class="grade" placeholder="纯数字，如“2017”"><p>
+            <p>专&nbsp; &nbsp;业 &nbsp;&nbsp;<input type="text" name="major" class="major" placeholder="专业编号或专业名称"><p>
+            <p>班&nbsp; &nbsp;级 &nbsp;&nbsp;<input type="text" name="class" class="class" placeholder="纯数字，如“2”"><p>
+            <p class="result"></p>
+            <p class="addstuform-go go">注 &nbsp; &nbsp; 册</p>
+        </form>
+    </div>
+    <div id="addclo">
+        <span class="title">蓝墨云班课数据上传</span>
+        <img src="../images/exit.png" alt="退出" title="退出" class="exit">
+        <form class="addcloform">
+            <p>学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="cloud1" class="cloud1" placeholder="8位有效数字"><p>
+            <p>视 频 资 源 <input type="text" name="cloud2" class="cloud2" placeholder="百分制，如“80.00”"><p>
+            <p>非视频资源 <input type="text" name="cloud3" class="cloud3" placeholder="百分制，如“80.00”"><p>
+            <p>签&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;到&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="cloud4" class="cloud4" placeholder="百分制，如“80.00”"><p>
+            <p>测&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="cloud5" class="cloud5" placeholder="百分制，如“80.00”"><p>
+            <p>百分制得分 <input type="text" name="cloud6" class="cloud6" placeholder="百分制，如“80.00”"><p>
+            <p class="result"></p>
+            <p class="addcloform-go go">上 &nbsp; &nbsp; 传</p>
+        </form>
+    </div>
+    <div id="addit">
+            <span class="title">ITBegin数据上传</span>
+            <img src="../images/exit.png" alt="退出" title="退出" class="exit">
+            <form class="additform">
+                <p>学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="it1" class="it1" placeholder="8位有效数字"><p>
+                <p>运 行 次 数 <input type="text" name="it2" class="it2" placeholder="纯数字，如“99”，单位（次）"><p>
+                <p>敲 键 次 数 <input type="text" name="it3" class="it3" placeholder="纯数字，如“99”，单位（次）"><p>
+                <p>代 码 行 数 <input type="text" name="it4" class="it4" placeholder="纯数字，如“200”，单位（行）"><p>
+                <p>课 程 时 间 <input type="text" name="it5" class="it5" placeholder="纯数字，如“20191212”"><p>
+                <p class="result"></p>
+                <p class="additform-go go">上 &nbsp; &nbsp; 传</p>
+            </form>
+    </div>
+    <div id="addcg">
+            <span class="title">Course Grading数据上传</span>
+            <img src="../images/exit.png" alt="退出" title="退出" class="exit">
+            <form class="addcgform">
+                <p>学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="cg1" class="cg1" placeholder="8位有效数字"><p>
+                <p>成&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;绩&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="cg2" class="cg2" placeholder="纯数字，如“60.00”，单位（分）"><p>
+                <p>修 订 成 绩 <input type="text" name="cg3" class="cg3" placeholder="纯数字，如“80.00”，单位（分）"><p>
+                <p>作 &nbsp;&nbsp;业 &nbsp;&nbsp;ID <input type="text" name="cg4" class="cg4" placeholder="纯数字，如“1189”"><p>
+                <p class="result"></p>
+                <p class="addcgform-go go">上 &nbsp; &nbsp; 传</p>
+            </form>
+    </div>
+    <footer id="footer">
+        Copyright &copy; 2019 Alan.
+    </footer>         
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/teacher.js"></script>
+</body>
+</html>
